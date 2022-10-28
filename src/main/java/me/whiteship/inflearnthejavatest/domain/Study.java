@@ -38,4 +38,9 @@ public class Study {
         this.status = StudyStatus.OPENED;
     }
 
+    public void open() {
+        this.openedDateTime = LocalDateTime.now();
+        this.status = StudyStatus.OPENED;
+    }
+
 }
